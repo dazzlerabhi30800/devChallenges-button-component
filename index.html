@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <link rel="icon" href="devchallenges.png" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Devchallenges</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <h1 class="logo"><span>Dev</span>challenges.io</h1>
+        <ul class="nav--list">
+          <li><a href="javascript:void(0)">Colors</a></li>
+          <li><a href="javascript:void(0)">Typography</a></li>
+          <li><a href="javascript:void(0)">Spaces</a></li>
+          <li><a href="javascript:void(0)">Buttons</a></li>
+          <li><a class="active" href="javascript:void(0)">Inputs</a></li>
+          <li><a href="javascript:void(0)">Grids</a></li>
+        </ul>
+      </nav>
+      <section class="flexbox">
+        <div class="comp--wrapper flexbox">
+          <h2>Buttons</h2>
+          <div class="button--wrapper flexbox">
+            <!-- First row -->
+            <div class="buttons">
+              <div class="button">
+                <h3>&lt;Button /&gt;</h3>
+                <button class="default">Default</button>
+              </div>
+              <div class="button">
+                <h3 class="pseudo">&amp;:focus, &amp:hover</h3>
+                <button class="default dark">Default</button>
+              </div>
+            </div>
+            <!-- Second row -->
+            <div class="buttons">
+              <div class="button">
+                <h3>&lt;Button variant="outline" /&gt;</h3>
+                <button class="outline boxnone">Default</button>
+              </div>
+              <div class="button">
+                <h3 class="pseudo">&amp;:focus, &amp:hover</h3>
+                <button class="outline boxnone outline--focus">Default</button>
+              </div>
+            </div>
+            <!-- Third Row -->
+            <div class="buttons">
+              <div class="button">
+                <h3>&lt;Button variant="text" /&gt;</h3>
+                <button class="text boxnone">Default</button>
+              </div>
+              <div class="button">
+                <h3 class="pseudo">&amp;:focus, &amp:hover</h3>
+                <button class="text pseudo">Default</button>
+              </div>
+            </div>
+            <!-- Fourth Row -->
+            <div class="buttons">
+              <div class="button">
+                <h3>&lt;Button disableShadow /&gt;</h3>
+                <button class="disable boxnone">Default</button>
+              </div>
+            </div>
+            <!-- FiFth Row -->
+            <div class="buttons">
+              <div class="button">
+                <h3>&lt;Button disabled /&gt;</h3>
+                <button class="disabled">Disabled</button>
+              </div>
+              <div class="button">
+                <h3>&lt;Button variant="text" disabled /&gt;</h3>
+                <button class="disabled boxnone text">Disabled</button>
+              </div>
+            </div>
+            <!-- Sixth row -->
+            <div class="buttons">
+              <div class="button">
+                <h3>&lt;Button startIcon="local_grocery_store" /&gt;</h3>
+                <button class="grocery">
+                  <span class="material-symbols-outlined"
+                    >add_shopping_cart</span
+                  >Default
+                </button>
+              </div>
+              <div class="button">
+                <h3>&lt;Button variant="text" disabled /&gt;</h3>
+                <button class="grocery">
+                  Default
+                  <span class="material-symbols-outlined"
+                    >add_shopping_cart</span
+                  >
+                </button>
+              </div>
+            </div>
+            <!-- Seventh Row -->
+            <div class="buttons">
+              <div class="button">
+                <h3>&lt;Button size="sm" /&gt;</h3>
+                <button class="grocery sm">Default</button>
+              </div>
+              <div class="button">
+                <h3>&lt;Button size="md" disabled /&gt;</h3>
+                <button class="grocery md">Default</button>
+              </div>
+              <div class="button">
+                <h3>&lt;Button size="lg" disabled /&gt;</h3>
+                <button class="grocery lg">Default</button>
+              </div>
+            </div>
+            <!-- Eighth Row -->
+            <div class="buttons">
+              <div class="button">
+                <h3>&lt;Button color="default" /&gt;</h3>
+                <button class="default">Default</button>
+              </div>
+              <div class="button">
+                <h3>&lt;Button color="primary" /&gt;</h3>
+                <button class="grocery">Default</button>
+              </div>
+              <div class="button">
+                <h3>&lt;Button color="secondary" /&gt;</h3>
+                <button class="secondary">Secondary</button>
+              </div>
+              <div class="button">
+                <h3>&lt;Button color="danger" /&gt;</h3>
+                <button class="danger">Danger</button>
+              </div>
+            </div>
+            <!-- Nineth Row -->
+            <h3>&amp;:hover, &amp;:focus</h3>
+            <div class="buttons last">
+              <div class="button">
+                <button class="default dark">Default</button>
+              </div>
+              <div class="button">
+                <button class="grocery dark">Default</button>
+              </div>
+              <div class="button">
+                <button class="secondary dark">Secondary</button>
+              </div>
+              <div class="button">
+                <button class="danger dark">Danger</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
